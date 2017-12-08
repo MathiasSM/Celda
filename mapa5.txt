@@ -1,0 +1,4 @@
+secuencia(
+   pasillo(a, regular),
+   pasillo(a, invertido)
+).

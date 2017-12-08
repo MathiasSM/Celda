@@ -1,0 +1,7 @@
+secuencia(
+   pasillo(a, regular),
+   division(
+       pasillo(b, regular),
+       pasillo(c, invertido)
+   )
+).
