@@ -68,6 +68,13 @@ cruzar(M,I,S) :-
 		cruzarAhora(SubMapa1, Interruptores, peligroso),
 		cruzarAhora(SubMapa2, Interruptores, peligroso).
 
+
+%
+% siempre_seguro\1
+% Indica si se puede cruzar el mapa suministrado sin importar el orden de los interruptores
+siempre_seguro(division(pasillo(X, Y), pasillo(X, W))) :- Y \= W.
+siempre_seguro(division(SubMapa1, SubMapa2)) :- siempre_seguro(SubMapa1) ; siempre_seguro(SubMapa2).
+
 %
 % leer/1
 % Leer el nombre del archivo, unifica su contenido con Mapa.
