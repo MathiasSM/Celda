@@ -9,7 +9,7 @@
 
 - Se crearon los predicados auxiliares `onoff\1` y `completo\2` con el fin de poder instanciar correctamente los interruptores. `onoff\1` se encarga de seleccionar los modos de los interruptores y `completo\2` se encarga de emparejar las etiquetas de los pasillos con la de los interruptores.
 
-- Para mayor eficiencia, la lista de interruptores se ordeno de manera lexicográfica por las etiquetas de los pasillos.
+- Para evitar elementos repetidos, la lista de interruptores se ordeno de manera lexicográfica por las etiquetas de los pasillos.
 
 ---
 
