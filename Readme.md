@@ -20,4 +20,4 @@
     `$> [celda].`
 - Ejecutar main: 
     `$> main.`
-- Introducir un nombre de archivo con un mapa
+- Introducir un nombre de archivo con un mapa (los mapas deben finalizar con un punto (.) )
